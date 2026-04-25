@@ -9,6 +9,8 @@ A modern, interactive personal portfolio website built with **Streamlit** showca
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
+### 🌐 **[View Live App](https://personalsiteee.streamlit.app/)** ← Click here to see the portfolio in action!
+
 ---
 
 ## 📋 Table of Contents
@@ -349,6 +351,11 @@ This project is open source and available under the MIT License.
 ---
 
 ## 🎯 Quick Start
+
+### 🌐 View Live
+Visit the live app: **[https://personalsiteee.streamlit.app/](https://personalsiteee.streamlit.app/)**
+
+### 🖥️ Run Locally
 
 ```bash
 # 1. Install dependencies
