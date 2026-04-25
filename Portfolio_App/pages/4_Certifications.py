@@ -14,7 +14,7 @@ try:
     cert2 = Image.open(os.path.join(assets_dir, "Cert2.png"))
     st.image(cert2, caption="Machine Learning Specialization - 2026")
     
-    cert1 = Image.open(os.path.join(assets_dir, "Cert1.png"))
+    cert1 = Image.open(os.path.join(assets_dir, "cert1.png"))
     st.image(cert1, caption="Python Specialization - 2026")
     
     cert3 = Image.open(os.path.join(assets_dir, "Cert3.png"))
