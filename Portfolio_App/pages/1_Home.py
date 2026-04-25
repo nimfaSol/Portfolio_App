@@ -10,7 +10,11 @@ assets_dir = os.path.join(project_dir, "assets")
 col1, col2 = st.columns([1,2])
 
 with col1:
-    st.image(os.path.join(assets_dir, "nymf.png"), width=250)
+    try:
+        profile_img = Image.open(os.path.join(assets_dir, "nymf.png"))
+        st.image(profile_img, width=250)
+    except FileNotFoundError:
+        st.error("Profile image not found")
 
 with col2:
     st.title("👨‍💻  I'm Nimfa Mae A. Solasco, an aspiring  Machine learning Engineer  ")
