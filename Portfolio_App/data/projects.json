@@ -1,0 +1,32 @@
+[
+  {
+    "title": "CPU Instruction Cycle Simulator",
+    "description": "Interactive simulation of fetch-decode-execute cycle with GUI and visualization of registers and memory.",
+    "tech": ["Python", "OOP", "Tkinter", "Simulation"],
+    "link": "https://github.com/yourrepo/cpu-simulator"
+  },
+  {
+    "title": "Compiler Design Simulator",
+    "description": "Simulates lexical analysis, parsing, and code generation with step-by-step visualization.",
+    "tech": ["Python", "Compiler Theory", "Parsing"],
+    "link": "https://github.com/yourrepo/compiler-sim"
+  },
+  {
+    "title": "ATM Banking System V2",
+    "description": "Object-oriented banking system with authentication, transactions, and GUI interface.",
+    "tech": ["Python", "OOP", "GUI"],
+    "link": "https://github.com/yourrepo/atm-system"
+  },
+  {
+    "title": "Profiling System",
+    "description": "Full-stack youth profiling system with analytics dashboard, charts, and export features.",
+    "tech": ["PHP", "MySQL", "Chart.js"],
+    "link": "https://github.com/yourrepo/sk-system"
+  },
+  {
+    "title": "Network Packet Flow Simulator",
+    "description": "Visual simulation of packet transfer across network layers (OSI model).",
+    "tech": ["Python", "Networking", "Visualization"],
+    "link": "https://github.com/yourrepo/network-sim"
+  }
+]
