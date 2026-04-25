@@ -1,9 +1,15 @@
 import streamlit as st
 import json
+import os
 
 st.title("💻 Projects")
 
-with open("data/projects.json") as f:
+# Get the data file path
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.dirname(script_dir)
+data_file = os.path.join(project_dir, "data", "projects.json")
+
+with open(data_file) as f:
     projects = json.load(f)
 
 cols = st.columns(2)

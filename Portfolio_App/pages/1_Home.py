@@ -1,10 +1,16 @@
 import streamlit as st
 from PIL import Image
+import os
+
+# Get the directory where this script is located, then go up and into assets
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.dirname(script_dir)
+assets_dir = os.path.join(project_dir, "assets")
 
 col1, col2 = st.columns([1,2])
 
 with col1:
-    st.image("assets/nymf.png", width=250)
+    st.image(os.path.join(assets_dir, "nymf.png"), width=250)
 
 with col2:
     st.title("👨‍💻  I'm Nimfa Mae A. Solasco, an aspiring  Machine learning Engineer  ")
