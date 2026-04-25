@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 st.set_page_config(
     page_title="Dev Portfolio",
@@ -9,7 +10,8 @@ st.set_page_config(
 
 # Load global CSS
 def load_css():
-    with open("assets/styles.css") as f:
+    css_path = os.path.join(os.path.dirname(__file__), "assets", "styles.css")
+    with open(css_path) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 load_css()
